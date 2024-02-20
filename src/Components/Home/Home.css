@@ -61,6 +61,7 @@
     width: fit-content;
     border: 1px solid #ff004f;
     padding: 10px 24px;
+    font-size: 13px;
     border-radius: 6px;
     text-decoration: none;
     background: #ff004f;
@@ -164,13 +165,16 @@
         height: 100vh;
     }
 
-    .featured-text{
+    .featured-text {
         width: 100%;
         order: 2;
         justify-content: center;
+        align-items: center;
         align-content: flex-start;
-        min-height: 60vh;
+        min-height: 49vh;
+        text-align: center;
     }
+
 
     .featured-image{
         order: 1;
@@ -181,11 +185,84 @@
     }
 
     .h-image,.h-image img{
-        width: 160px;
-        height: 160px;
+        width: 200px;
+        height: 200px;
     }
 
     .h-image{
         border: 2px solid white;
+    }
+}
+
+@media (max-width:600px){
+    .h-image,.h-image img{
+        width: 160px;
+        height: 160px;
+    }
+
+    .featured-text {
+        width: 100%;
+        order: 2;
+        justify-content: center;
+        align-items: start;
+        align-content: flex-start;
+        text-align: start;
+    }
+
+    .featured-text{
+        min-height: 54vh;
+    }
+
+    .btn-home{
+        display: block;
+        width: fit-content;
+        border: 1px solid #ff004f;
+        padding: 8px 14px;
+        border-radius: 6px;
+        text-decoration: none;
+        background: #ff004f;
+        color: white;
+        transition: background 0.5s;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    .featured-text-card span {
+        font-size: 10px;
+    }
+
+    .featured-name{
+        font-size: 30px;
+        margin: 6px 0;
+    }
+
+    .featured-text-info{
+        font-size: 11px;
+    }
+
+    .featured-text-info .typingText{
+        font-size: 25px;
+    }
+
+    .small-text{
+        margin-top: 3px;
+    }
+
+    .featured-text{
+       min-height: 45vh;
+    }
+
+    .featured-image {
+        margin-top: 0px;
+    }
+
+    .featured-box{
+        height: auto;
+        min-height: 95vh;
+    }
+
+    #about {
+        padding: 0px 0px 40px 0px;
+        color: #ababab;
     }
 }

@@ -16,6 +16,10 @@ body {
   color: white;
 }
 
+#root{
+  overflow: auto;
+}
+
 .row {
   display: flex;
   justify-content: space-between;

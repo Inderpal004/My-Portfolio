@@ -28,7 +28,7 @@ export default function Home() {
                     <p className='small-text'>Let's create something awesome together! 🚀</p>
                 </div>
                 <div className="featured-text-btn">
-                    <a href='/Inderpal-cv.pdf' className="btn-home" download>Download CV</a>
+                <a href="/Inderpal-cv.pdf" className="btn-home" download>Download CV</a>
                     <Link to="portfolio"><button className="btn-home transparent"> View Project</button></Link>
                 </div>
                 <div className="socialheader-icons">
