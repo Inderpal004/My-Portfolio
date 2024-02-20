@@ -36,7 +36,8 @@
     position: absolute;
     height: 98%;
     width: 2px;
-    background-image: linear-gradient(white 33%,rgba(255,255,255,0)0%);
+    background: white;
+    /* background-image: linear-gradient(white 33%,rgba(255,255,255,0)0%); */
     background-position: right;
     background-size: 2px 30px;
     background-repeat: repeat-y;
